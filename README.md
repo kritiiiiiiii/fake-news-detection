@@ -49,6 +49,7 @@ https://fake-news-detection-hfugwfwsh9cjss79k3dmdl.streamlit.app
 
 ## Project Structure
 
+```text
 fake-news-detection/
 │
 ├── app/
@@ -78,6 +79,7 @@ fake-news-detection/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
 
 ## How to Run
 Clone Repository
