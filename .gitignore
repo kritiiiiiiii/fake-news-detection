@@ -17,7 +17,3 @@ venv/
 
 # Dataset files
 data/
-
-# Large ML models
-models/model.pkl
-models/vectorizer.pkl
