@@ -4,7 +4,7 @@ A Machine Learning-powered Fake News Detection application that classifies news 
 
 ## Live Demo
 
-🚀 Try the deployed application:
+🚀 Try the application here: 
 https://fake-news-detection-hfugwfwsh9cjss79k3dmdl.streamlit.app
 
 ## Screenshots
@@ -30,10 +30,11 @@ https://fake-news-detection-hfugwfwsh9cjss79k3dmdl.streamlit.app
 * Real-time fake news prediction
 * Text preprocessing and cleaning
 * TF-IDF feature extraction
-* Machine Learning classification
+* Logistic Regression Classification
 * Confidence score generation
-* Interactive Streamlit web interface
-* Visualization of influential keywords
+* Interactive Streamlit dashboard
+* Keyword importance visualization
+* Confusion Matrix evaluation 
 
 ## Tech Stack
 
@@ -82,33 +83,67 @@ fake-news-detection/
 ```
 
 ## How to Run
-Clone Repository
 
+### Clone Repository
+
+```bash
 git clone https://github.com/kritiiiiiiii/fake-news-detection.git
+```
 
-Navigate to Project Directory
+### Navigate to Project Directory
 
+```bash
 cd fake-news-detection
+```
 
-Install Dependencies
+### Install Dependencies
 
+```bash
 pip install -r requirements.txt
+```
 
-Run Streamlit Application
+### Run Streamlit Application
 
+```bash
 streamlit run app/app.py
+```
 
 ## Model Performance
 
-Logistic Regression Accuracy: 98.24%
-Naive Bayes Accuracy: 94.67%
+Logistic Regression Accuracy: ** 98.24%**
+Naive Bayes Accuracy: **94.67%**
 
 The Logistic Regression model was selected as the final model due to its superior performance.
 
 ## Dataset
 
-The original dataset and trained model files are not included in this repository because of GitHub file-size limitations.
+The project uses a public Fake News Detection dataset containing:
+-44,898 news articles
+-21,417 Real news articles
+-23,481 Fake news articles
 
-Author
+> Note:The original dataset is not included in this repository.
 
-Kriti Jha
+## Future Improvements
+
+- News URL analysis
+
+- News source credibility scoring
+
+- Deep Learning models (LSTM/BERT)
+
+- Mobile-responsive UI enhancements
+
+- Multi-language support
+
+## Author
+
+**Kriti Jha**
+
+- GitHub: https://github.com/kritiiiiiiii
+
+- LinkedIn: https://www.linkedin.com/in/kriti-jha-9b8435323/
+
+---
+
+⭐ If you found this project useful, feel free to star the repository.
