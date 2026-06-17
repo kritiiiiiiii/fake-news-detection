@@ -2,12 +2,17 @@
 
 A Machine Learning-powered Fake News Detection application that classifies news articles as Real or Fake using Natural Language Processing (NLP), TF-IDF Vectorization, and Logistic Regression.
 
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-red)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-NLP-green)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange)
+
 ## Live Demo
 
 🚀 Try the application here: 
 https://fake-news-detection-hfugwfwsh9cjss79k3dmdl.streamlit.app
 
-## Screenshots
+## Application  Screenshots
 
 ### Home Page
 
@@ -27,14 +32,23 @@ https://fake-news-detection-hfugwfwsh9cjss79k3dmdl.streamlit.app
 
 ## Features
 
-* Real-time fake news prediction
-* Text preprocessing and cleaning
-* TF-IDF feature extraction
-* Logistic Regression Classification
-* Confidence score generation
-* Interactive Streamlit dashboard
-* Keyword importance visualization
-* Confusion Matrix evaluation 
+- Real-time Fake News Classification
+- NLP-based Text Preprocessing
+- TF-IDF Feature Engineering
+- Logistic Regression Classification
+- Confidence Score Visualization
+- Keyword Importance Analysis
+- Dataset Statistics Dashboard
+- Confusion Matrix Evaluation
+- Interactive Streamlit Interface
+
+## Workflow
+
+1. User enters a news article.
+2. Text is cleaned and preprocessed.
+3. TF-IDF vectorization converts text into numerical features.
+4. Logistic Regression predicts whether the news is Real or Fake.
+5. Confidence scores and influential keywords are displayed.
 
 ## Tech Stack
 
@@ -110,19 +124,22 @@ streamlit run app/app.py
 
 ## Model Performance
 
-Logistic Regression Accuracy: ** 98.24%**
-Naive Bayes Accuracy: **94.67%**
+| Model | Accuracy |
+|---------|---------|
+| Logistic Regression | 98.24% |
+| Naive Bayes | 94.67% |
 
 The Logistic Regression model was selected as the final model due to its superior performance.
 
 ## Dataset
 
 The project uses a public Fake News Detection dataset containing:
--44,898 news articles
--21,417 Real news articles
--23,481 Fake news articles
 
-> Note:The original dataset is not included in this repository.
+- 44,898 news articles
+- 21,417 Real news articles
+- 23,481 Fake news articles
+
+> Note: The original dataset is not included in this repository.
 
 ## Future Improvements
 
@@ -140,10 +157,8 @@ The project uses a public Fake News Detection dataset containing:
 
 **Kriti Jha**
 
-- GitHub: https://github.com/kritiiiiiiii
+- GitHub: [@kritiiiiiiii](https://github.com/kritiiiiiiii)
+- LinkedIn: [Kriti Jha](https://www.linkedin.com/in/kriti-jha-9b8435323/)
 
-- LinkedIn: https://www.linkedin.com/in/kriti-jha-9b8435323/
 
 ---
-
-⭐ If you found this project useful, feel free to star the repository.
