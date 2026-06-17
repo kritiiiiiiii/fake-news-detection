@@ -26,7 +26,7 @@ df = df.sample(frac=1).reset_index(drop=True)
 df["text"] = df["text"].apply(clean_text)
 
 # TF-IDF with n-grams
-tfidf = TfidfVectorizer(max_df=0.7, ngram_range=(1,2), max_features=10000)
+tfidf = TfidfVectorizer(max_df=0.7, ngram_range=(1,2))
 X = tfidf.fit_transform(df["text"])
 y = df["label"]
 
