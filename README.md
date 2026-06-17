@@ -1,4 +1,4 @@
-Fake News Detection System
+## Fake News Detection System
 
 A Machine Learning-powered Fake News Detection application that classifies news articles as Real or Fake using Natural Language Processing (NLP), TF-IDF Vectorization, and Logistic Regression.
 
@@ -71,7 +71,7 @@ fake-news-detection/
 ├── README.md
 └── .gitignore
 
-How to Run
+## How to Run
 
 Clone Repository
 
@@ -89,14 +89,14 @@ Run Streamlit Application
 
 streamlit run app/app.py
 
-Model Performance
+## Model Performance
 
 Logistic Regression Accuracy: 98.24%
 Naive Bayes Accuracy: 94.67%
 
 The Logistic Regression model was selected as the final model due to its superior performance.
 
-Dataset
+## Dataset
 
 The original dataset and trained model files are not included in this repository because of GitHub file-size limitations.
 
