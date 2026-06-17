@@ -4,12 +4,28 @@ A Machine Learning-powered Fake News Detection application that classifies news 
 
 ## Live Demo
 
-## Live Demo
-
 🚀 Try the deployed application:
 https://fake-news-detection-hfugwfwsh9cjss79k3dmdl.streamlit.app
 
-Features
+## Screenshots
+
+### Home Page
+
+![Home Page](screenshots/home.png)
+
+### Prediction Result
+
+![Prediction Result](screenshots/prediction-result.png)
+
+### Detailed Analysis
+
+![Analysis](screenshots/analysis.png)
+
+### Model Evaluation
+
+![Confusion Matrix](screenshots/confusion-matrix.png)
+
+## Features
 
 * Real-time fake news prediction
 * Text preprocessing and cleaning
@@ -19,7 +35,7 @@ Features
 * Interactive Streamlit web interface
 * Visualization of influential keywords
 
-Tech Stack
+## Tech Stack
 
 * Python
 * Pandas
@@ -31,7 +47,7 @@ Tech Stack
 * Seaborn
 * Plotly
 
-Project Structure
+## Project Structure
 
 fake-news-detection/
 │
