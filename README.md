@@ -1,6 +1,6 @@
 ## Fake News Detection System
 
-A Machine Learning-powered Fake News Detection application that classifies news articles as Real or Fake using Natural Language Processing (NLP), TF-IDF Vectorization, and Logistic Regression.
+A Machine Learning-powered Fake News Detection application that classifies news articles as Real or Fake using Natural Language Processing (NLP), TF-IDF Vectorization, and Logistic Regression. Built and deployed as an interactive Streamlit web application, the system achieves 98.24% classification accuracy on a dataset of 44,898 news articles.
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-red)
@@ -9,8 +9,9 @@ A Machine Learning-powered Fake News Detection application that classifies news 
 
 ## Live Demo
 
-🚀 Try the application here: 
-https://fake-news-detection-hfugwfwsh9cjss79k3dmdl.streamlit.app
+🚀 **Try the application here:**
+
+[Launch Fake News Detector](https://fake-news-detection-hfugwfwsh9cjss79k3dmdl.streamlit.app)
 
 ## Application  Screenshots
 
