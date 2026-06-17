@@ -62,17 +62,24 @@ fake-news-detection/
 │   └── evaluate.py
 │
 ├── models/
+│   ├── model.pkl
+│   ├── vectorizer.pkl
 │   └── metrics.pkl
 │
 ├── notebooks/
 │   └── EDA.ipynb
+│
+├── screenshots/
+│   ├── home.png
+│   ├── prediction-result.png
+│   ├── analysis.png
+│   └── confusion-matrix.png
 │
 ├── requirements.txt
 ├── README.md
 └── .gitignore
 
 ## How to Run
-
 Clone Repository
 
 git clone https://github.com/kritiiiiiiii/fake-news-detection.git
