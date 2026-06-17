@@ -1,30 +1,74 @@
-Fake News Detection
+Fake News Detection System
 
-A Machine Learning based Fake News Detection system built using Python, NLP, TF-IDF Vectorization, and Scikit-learn.
+A Machine Learning-powered Fake News Detection application that classifies news articles as Real or Fake using Natural Language Processing (NLP), TF-IDF Vectorization, and Logistic Regression.
 
 Features
 
-* Detects whether a news article is real or fake
+* Real-time fake news prediction
 * Text preprocessing and cleaning
-* TF-IDF vectorization
+* TF-IDF feature extraction
 * Machine Learning classification
-* User-friendly prediction interface
+* Confidence score generation
+* Interactive Streamlit web interface
+* Visualization of influential keywords
 
-Technologies Used
+Tech Stack
 
 * Python
 * Pandas
 * NumPy
 * Scikit-learn
 * NLTK
-* Streamlit / Flask (if applicable)
+* Streamlit
+* Matplotlib
+* Seaborn
+* Plotly
 
 Project Structure
 
-* app/
-* src/
-* models/
-* requirements.txt
+fake-news-detection/
+│
+├── app/
+│   └── app.py
+│
+├── src/
+│   ├── preprocess.py
+│   ├── vectorizer.py
+│   ├── train.py
+│   ├── predict.py
+│   └── evaluate.py
+│
+├── models/
+│   └── metrics.pkl
+│
+├── notebooks/
+│   └── EDA.ipynb
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
+
+How to Run
+
+Clone Repository
+
+git clone https://github.com/kritiiiiiiii/fake-news-detection.git
+
+Navigate to Project Directory
+
+cd fake-news-detection
+
+Install Dependencies
+
+pip install -r requirements.txt
+
+Run Streamlit Application
+
+streamlit run app/app.py
+
+Dataset
+
+The original dataset and trained model files are not included in this repository because of GitHub file-size limitations.
 
 Author
 
